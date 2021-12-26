@@ -1,0 +1,181 @@
+/*
+   start main
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    .overlay{
+        background-color: rgb(0, 0, 0,0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    /*
+       end main
+    */
+    
+    /*
+       start header
+    */
+    
+    /* start nav*/
+    .navbar-brand span{
+        color: #d73f4a;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    /* end nav*/
+    
+    /* start slider*/
+    .mySlider{
+        position: relative;
+    }
+    .carousel-inner{
+        margin-top: -21px;
+        height: 57rem;
+    
+    }
+    .carousel-inner .myItem img{
+       width: 100% !important;
+       height: 57rem !important;
+    }
+    
+    /*start heading*/
+    header .heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1000;
+        text-align: center;
+    }
+    header .heading h1 {
+        font-size: 5em;
+        font-weight: bold;
+        color: #e3dbdb;
+    }
+    header .heading h1 span{
+        color:#EB233C;
+        color: #d73f4a;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    header .heading p{
+        font-size: 1.5em;
+        margin-bottom: 70px;
+        color: #e3dbdb;
+    }
+    /*end heading*/
+    /*end slider */
+    
+    /*
+       end header
+    */
+    
+    /*
+      start about
+    */
+    .about{
+        margin-bottom: 85px;
+    }
+    .title{
+        padding: 60px 0px 50px 45px;
+        font-size: 40px;
+         font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    .title::before {
+        content: "ABOUT";
+        border-bottom: 3px solid #EB233C;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    .row{
+        margin-bottom: 34px;
+    }
+    
+    .about .col-sm-6 img {
+        width: 100%;
+        height: 375px;
+        padding: 0 10px 0 15px;
+        border-radius: 90px;
+    }
+    .about .col-sm-5 .pic2 img {
+        width: 99%;
+        height: 375px;
+        margin: 24px -85px 1;
+        border-radius: 90px;
+    
+    }
+    
+    .about  .paragraph {
+    
+        margin: 60px 100px 0 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    /*
+      end about
+    */
+    
+    /*
+      start testimonial
+    */
+    .test .title::before {
+        content: "Customers";
+        border-bottom: 3px solid #EB233C;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    
+    /**
+    start footer
+    **/
+    .footer{
+        padding: 35px 20px 1px;
+        color: #c7b9b9;
+        background: #181818;
+    }
+    .footer .row{
+        margin-bottom: -10px;
+    }
+    .footer span{
+        color: #d73f4a;
+        border-bottom: 1px solid;
+    }
+    .footer  h2{
+        font-family: 'Bungee Outline', cursive;
+        margin-top: -51px;
+        letter-spacing: 2px;
+       
+    }
+    .footer .footer-paragraph p{
+      padding-right:  30px;
+    }
+    .footer .col-sm-3{
+        margin: 30px 0 -5px 0px;
+    }
+    .footer h4{
+        margin:-33px 0px 22px -4px;
+        font-size: 22px;
+    }
+    .footer p{
+        font-size: 14px;
+        text-align: justify;
+        padding-bottom: 10px;
+       
+    }
+    .footer i{
+        font-size: 13px;
+        padding-right: 10px;
+    }
+    .footer hr{
+        margin-top: 10px;
+     }
+     .footer .copyright{
+         text-align: center;
+     }
+     /**
+    end footer
+    **/
